@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="ubuntu" id="0" name="TimerLightsFunctionalTests" package="swot.functional.tests.grails2" tests="1" time="36.28" timestamp="2011-12-20T15:32:52">
+      <properties />
+
+      <testcase classname="swot.functional.tests.grails2.TimerLightsFunctionalTests" name="test_that_when_all_lights_are_off_and_a_timer_is_set_to_zero_light1_should_change_to_on" time="36.261">
+          <failure message="Assertion failed: &#xa;&#xa;assert it.light1.getAttribute(&apos;alt&apos;) == &apos;ON&apos;&#xa;       |  |      |                   |&#xa;       |  |      OFF                 false&#xa;       |  org.openqa.selenium.remote.RemoteWebElement@eaa6432b&#xa;       {elementById=models.TimerLightsModelChromeBrowser$_widget_closure12@119f4b78, elementByName=models.TimerLightsModelChromeBrowser$_widget_closure13@7113bc51}&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert it.light1.getAttribute(&apos;alt&apos;) == &apos;ON&apos;
+       |  |      |                   |
+       |  |      OFF                 false
+       |  org.openqa.selenium.remote.RemoteWebElement@eaa6432b
+       {elementById=models.TimerLightsModelChromeBrowser$_widget_closure12@119f4b78, elementByName=models.TimerLightsModelChromeBrowser$_widget_closure13@7113bc51}
+
+	at swot.functional.tests.grails2.TimerLightsFunctionalTests$_test_that_when_all_lights_are_off_and_a_timer_is_set_to_zero_light1_should_change_to_on_closure3.doCall(TimerLightsFunctionalTests.groovy:47)
+	at models.TimerLightsModelChromeBrowser.widget(TimerLightsModelChromeBrowser.groovy:190)
+	at swot.functional.tests.grails2.TimerLightsFunctionalTests.test_that_when_all_lights_are_off_and_a_timer_is_set_to_zero_light1_should_change_to_on(TimerLightsFunctionalTests.groovy:46)
+</failure>
+
+      </testcase>
+
+      <system-out />
+
+      <system-err><![CDATA[--Output from test_that_when_all_lights_are_off_and_a_timer_is_set_to_zero_light1_should_change_to_on--
+
+(google-chrome:23292): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(google-chrome:23292): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(google-chrome:23292): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(google-chrome:23292): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+[23292:23311:365470333055:ERROR:base_paths_linux.cc(112)] Couldn't find your source root.  Try running from your chromium/src directory.
+[23292:23306:365474071913:ERROR:file_util.cc(345)] Couldn't open /tmp/.com.google.Chrome.ltVgh8/Dictionaries/sv-SE-1-1.bdic
+
+(exe:23363): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(exe:23363): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(exe:23363): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(exe:23363): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so: wrong ELF class: ELFCLASS64
+
+(npviewer.bin:23382): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(npviewer.bin:23382): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(npviewer.bin:23382): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+[1220/163307:WARNING:webdriver_session.cc(1368)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <img src="http://keetsa.com/blog/wp-content/uploads/2008/06/geobulb-led-light-bulb-warm.jpg" width="136" height="136" alt="Emulated Lights">
+[1220/163315:WARNING:webdriver_session.cc(1368)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <img src="http://1.bp.blogspot.com/-MdBqmg8E37w/TWLYK_qZ0kI/AAAAAAAAC4c/d01Ltx9HxPs/s1600/timer-icon%255B1%255D.gif" width="136" height="136" alt="Timer">
+[1220/163322:WARNING:webdriver_session.cc(1368)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <img src="http://keetsa.com/blog/wp-content/uploads/2008/06/geobulb-led-light-bulb-warm.jpg" width="136" height="136" alt="Emulated Lights">
+]]></system-err>
+
+  </testsuite>
+</testsuites>

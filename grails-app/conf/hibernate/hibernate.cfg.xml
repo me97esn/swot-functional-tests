@@ -1,0 +1,24 @@
+<!DOCTYPE hibernate-configuration SYSTEM
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <mapping package="com.ericsson.swot.gsp.model.entity"/>
+        <mapping class="com.ericsson.swot.gsp.model.entity.Subscription" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.Portal" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.SubscriptionInstance" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.Account" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.Conversation" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.ConversationControl" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.ConversationParty" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.FriendRelation" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.PortalIdentityProvider" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.PortalSettings" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.SocialThing" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.SocialThingInstance" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.UserProfile" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.UserPortalRelation" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.UserSession" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.Wall" />
+        <mapping class="com.ericsson.swot.gsp.model.entity.WallFilter" />
+    </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,5 @@
+digraph BodyScaleModel
+{
+  "Empty browser" -> "Portal start page"  [label="goto_start_page"];
+  "Portal start page" -> "Portal start page"  [label="goto_start_page"];
+}

@@ -1,0 +1,5 @@
+[1220/163902:WARNING:webdriver_session.cc(1368)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <span class="ui-icon ui-icon-pages ui-icon-shadow"></span>
+[1220/163902:WARNING:webdriver_session.cc(1368)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <span>...</span>
+[1220/163910:ERROR:automation_proxy.cc(389)] Channel error in AutomationProxy.
+[1220/163911:ERROR:automation_proxy.cc(389)] Channel error in AutomationProxy.
+[1220/163912:ERROR:automation_proxy.cc(389)] Channel error in AutomationProxy.
